@@ -20,6 +20,7 @@ Route::get('/', function () {
 Route::get('/index', function(){
     return view('admin.dashboard');
 });
+Route::resource('category', 'CategoryController');
 
 Route::get('/index/test', function(){
     return view('test');
