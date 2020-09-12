@@ -7,15 +7,15 @@
         <div id="content">
             <!-- TopBar -->
         @include('Admin.layouts.navbar')
-            <!-- Topbar -->
+        <!-- Topbar -->
 
             <!-- Container Fluid-->
-            @include('Admin.layouts.container')
-            <!---Container Fluid-->
+       @yield('content')
+        <!---Container Fluid-->
         </div>
         <!-- Footer -->
-@include('Admin.layouts.footer')
-        <!-- Footer -->
+    @include('Admin.layouts.footer')
+    <!-- Footer -->
     </div>
 </div>
 
