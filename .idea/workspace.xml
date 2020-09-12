@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2531b5bd-ad23-481d-b9ab-23e73e954ebb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin/layouts/container.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin/layouts/main.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin/layouts/navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin/layouts/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_12_160534_create_categories_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin/layouts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +182,7 @@
       <workItem from="1599879640410" duration="1276000" />
       <workItem from="1599880948070" duration="13000" />
       <workItem from="1599880990223" duration="79000" />
-      <workItem from="1599909650940" duration="10565000" />
+      <workItem from="1599909650940" duration="11529000" />
     </task>
     <task id="LOCAL-00001" summary="Aula-075-Create Admin Panel">
       <created>1599921002541</created>
@@ -197,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599921002541</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Aula-077-Create split Panel">
+      <created>1599926586476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599926586476</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +218,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Aula-075-Create Admin Panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula-075-Create Admin Panel" />
+    <MESSAGE value="Aula-077-Create split Panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula-077-Create split Panel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="247" key="#Composer" timestamp="1599879714798">
@@ -228,9 +230,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="183" y="12" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1599880680820" />
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1599921006498">
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1599926588643">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1599921006498" />
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1599926588643" />
   </component>
 </project>
